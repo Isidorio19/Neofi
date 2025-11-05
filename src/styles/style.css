@@ -114,7 +114,8 @@ p {
     font-family: var(--font-family-alexandria);
     text-decoration: none;
 }
-.section-partners{
+
+.section-partners {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,12 +123,89 @@ p {
     background-color: var(--color-gray4);
     padding: 40px 0;
 }
-.content-partners h2{
+
+.content-partners h2 {
     color: var(--color-gray1);
     font-size: var(--font-size-text1);
     font-family: var(--font-family-alexandria);
 }
-.container-images-partners{
+
+.container-images-partners {
     display: flex;
     gap: 50px;
+}
+
+.section-breakdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    gap: 60px;
+}
+
+.content-breakdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.content-breakdown span {
+    color: var(--color-green);
+    border: 1px solid var(--color-gray3);
+    gap: 8px;
+    font-family: var(--font-family-alexandria);
+    border-radius: 24px;
+    font-size: var(--font-size-text2);
+}
+
+.concontent-breakdown h2 {
+    color: var(--color-white);
+    font-size: var(--font-size-title2);
+    font-family: var(--font-family-alexandria);
+    font-weight: 400;
+}
+
+.content-breakdown p {
+    font-family: var(--font-family-inter);
+    color: var(--color-gray1);
+    width: 572px;
+    text-align: center;
+}
+
+.container-cards-breakdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-breakdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 48px 36px;
+    background-color: var(#FFFFFF04);
+    border: 2px solid var(--color-gray3);
+}
+
+card-breakdown div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card-breakdown div h3 {
+    color: var(--color-white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    font-weight: 400px;
+}
+.card-breakdown div p {
+    color: var(--color-gray1);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text1);
+    text-align: center;
+    width: 338px;
 }
