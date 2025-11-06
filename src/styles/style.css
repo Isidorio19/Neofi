@@ -161,7 +161,7 @@ p {
     font-size: var(--font-size-text2);
 }
 
-.concontent-breakdown h2 {
+.content-breakdown h2 {
     color: var(--color-white);
     font-size: var(--font-size-title2);
     font-family: var(--font-family-alexandria);
@@ -191,17 +191,19 @@ p {
     border: 2px solid var(--color-gray3);
 }
 
-card-breakdown div {
+.card-breakdown div {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 16px;
 }
 
-.content-breakdown div h3 {
+.card-breakdown div h3 {
+    
     color: var(--color-white);
     font-family: var(--font-family-inter);
     font-size: var(--font-size-subtitle);
-    font-weight: 400px;
+    font-weight: 400;
 }
 .card-breakdown div p {
     color: var(--color-gray1);
@@ -216,7 +218,7 @@ card-breakdown div {
     align-items: center;
     gap: 60px;
     background-color: var(--color-gray4);
-    padding: 60px 0;
+    padding: 20px 0;
 }
 .content-statictics{
     display: flex;
@@ -249,7 +251,7 @@ card-breakdown div {
 .container-number-statistics{
     display: flex;
     justify-content: center;
-    gap: 72px;
+    gap: 20px;
 }
 .number-statistics{
     display: flex;
