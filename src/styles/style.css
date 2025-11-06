@@ -83,7 +83,7 @@ h1 {
     width: 521px;
 }
 
-p {
+.content-main p {
     color: var(--color-gray1);
     font-size: var(--font-size-subtitle);
     font-family: var(--font-family-inter);
@@ -199,12 +199,13 @@ p {
 }
 
 .card-breakdown div h3 {
-    
+
     color: var(--color-white);
     font-family: var(--font-family-inter);
     font-size: var(--font-size-subtitle);
     font-weight: 400;
 }
+
 .card-breakdown div p {
     color: var(--color-gray1);
     font-family: var(--font-family-alexandria);
@@ -212,7 +213,8 @@ p {
     text-align: center;
     width: 338px;
 }
-.sections-statistics{
+
+.sections-statistics {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,13 +222,15 @@ p {
     background-color: var(--color-gray4);
     padding: 20px 0;
 }
-.content-statictics{
+
+.content-statictics {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.content-statictics span{
+
+.content-statictics span {
     color: var(--color-green);
     border: 1px solid var(--color-gray3);
     padding: 12px 20px;
@@ -234,13 +238,15 @@ p {
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-text2);
 }
-.content-statictics h2{
+
+.content-statictics h2 {
     color: var(--color-white);
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-title2);
     font-weight: 400;
 }
-.content-statictics p{
+
+.content-statictics p {
     color: var(--color-gray1);
     font-size: var(--font-size-button);
     font-family: var(--font-family-alexandria);
@@ -248,25 +254,116 @@ p {
     text-align: center;
     line-height: 140%;
 }
-.container-number-statistics{
+
+.container-number-statistics {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.number-statistics{
+
+.number-statistics {
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: center;
 }
-.number-statistics h3{
+
+.number-statistics h3 {
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-title2);
     color: var(--color-green);
     font-weight: 400;
+    padding: 20px;
 }
-.number-statistics p{
+
+.number-statistics p {
     color: var(--color-gray1);
     font-family: var(--font-family-inter);
     font-size: var(--font-size-subtitle);
+}
+
+.section-blockchain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0px;
+}
+
+.content-blockchain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.content-blockchain span {
+    color: var(--color-green);
+    border: 1px solid var(--color-gray3);
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+
+}
+
+.content-blockchain h2 {
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+    color: var(--color-white);
+    font-weight: 400px;
+    text-transform: capitalize;
+}
+
+.content-blockchain p {
+    font-family: var(--font-family-inter);
+    color: var(--color-gray1);
+    font-size: var(--font-size-button);
+    text-align: center;
+    width: 644px;
+    line-height: 140%;
+}
+
+.container-blockchain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.container-cards-blackchain {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-blockchain {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-gray4);
+    border: 1px solid var(--color-gray2);
+    border-radius: 20px;
+    padding: 30px 20px;
+    gap: 24px;
+}
+
+.contentent-card-blackchain {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contentent-card-blackchain h3 {
+    color: var(--color-white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    font-weight: 400;
+}
+
+.contentent-card-blackchain p {
+    color: var(--color-gray1);
+    font-family: var(--font-family-alexandria);
+    width: 530px;
 }
