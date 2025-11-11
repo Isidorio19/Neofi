@@ -367,7 +367,8 @@ h1 {
     font-family: var(--font-family-alexandria);
     width: 530px;
 }
-.section-faq{
+
+.section-faq {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -376,7 +377,8 @@ h1 {
     background-color: var(--color-gray4);
 
 }
-.content-faq{
+
+.content-faq {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -384,23 +386,26 @@ h1 {
     text-align: center;
 
 }
-.content-faq span{
+
+.content-faq span {
     color: var(--color-green);
     font-family: var(--font-family-alexandria);
     padding: 12px 20px;
-    border:1px solid var(--color-gray3);
+    border: 1px solid var(--color-gray3);
     border-radius: 24px;
     font-size: var(--font-size-text2);
 }
-.content-faq h2{
-    color:var(--color-white);
+
+.content-faq h2 {
+    color: var(--color-white);
     font-size: var(--font-size-text2);
     font-family: var(--font-family-alexandria);
     font-weight: 400;
     text-transform: capitalize;
 
 }
-.content-faq p{
+
+.content-faq p {
     color: var(--color-gray1);
     font-family: var(--font-family-inter);
     font-size: var(--font-size-button);
@@ -409,33 +414,37 @@ h1 {
     line-height: 140%;
 
 }
-.conteiner-faq{
+
+.conteiner-faq {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.faq-itens{
+.faq-itens {
     display: flex;
     justify-content: space-between;
     padding: 16px 20px;
     border: 1px solid var(--color-gray3);
     width: 792px;
 }
-.faq-itens h3{
+
+.faq-itens h3 {
     color: var(--color-white);
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-text1);
     font-weight: 400;
 }
-.section-revolutionary{
+
+.section-revolutionary {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; 
-    padding: 61px 0px ;
+    gap: 20px;
+    padding: 61px 0px;
 }
-.section-revolutionary span{
+
+.section-revolutionary span {
     color: var(--color-green);
     font-family: var(--font-family-alexandria);
     padding: 12px 20px;
@@ -443,7 +452,8 @@ h1 {
     font-size: var(--font-size-text2);
 
 }
-.section-revolutionary h2{
+
+.section-revolutionary h2 {
     font-size: var(--font-size-title2);
     font-family: var(--font-family-alexandria);
     color: var(--color-white);
@@ -453,7 +463,8 @@ h1 {
     width: 878px;
 
 }
-.section-revolutionary p{
+
+.section-revolutionary p {
     font-family: var(--font-family-inter);
     color: var(--color-gray1);
     font-size: var(--font-size-button);
@@ -461,10 +472,88 @@ h1 {
     text-align: center;
 
 }
-.section-revolutionary a{
+
+.section-revolutionary a {
     background-color: var(--color-green);
     padding: 14px 24px;
     text-decoration: none;
     font-family: var(--font-family-alexandria);
     color: #000
+}
+
+footer {
+    display: flex;
+    gap: 126px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container-navegation-footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 92px;
+}
+
+.footer-navegation {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-navegation h2{
+color: var(--color-white);
+font-size: var(--font-size-subtitle);
+font-family: var(--font-family-inter);
+font-weight: 400;
+
+
+}
+.navegation-item ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+}
+.navegation-item ul li a{
+    color: var(--color-gray1);
+    font-size: var(--font-size-text2);
+    font-family: var(--font-family-alexandria);
+    text-decoration: none;
+}
+.footer-updates{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-updates h2{
+    color: var(--color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    width: 198px;
+
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-gray1);
+    padding-bottom: 16px;
+
+}
+form input{
+    background-color:transparent;
+    padding: 12px 5px;
+    color: var(--color-white);
+    outline: none;
+}
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-green);
+    border-radius: 100%;
+    padding: 10px;
+}
+form button:hover{
+    background-color: #008e00;
 }
